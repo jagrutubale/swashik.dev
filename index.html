@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narayan Ubale</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+            text-align: center;
+        }
+
+        .calendly-container {
+            width: 100%;
+            height: 100vh; /* Set the height to full viewport height */
+            overflow: hidden; /* Hide any overflow content to prevent scrolling */
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Calendly Widget Container -->
+    <div class="calendly-container" id="calendly-container">
+        <div class="calendly-inline-widget" data-url="https://calendly.com/narayanubale/quick-meeting" style="width:100%;height:100%;"></div>
+    </div>
+
+    <script src="https://assets.calendly.com/assets/external/widget.js"></script>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            <a href="mailto:jagrutubale@gmail.com"><i class="far fa-envelope"></i></a>
+            <a href="http://www.linkedin.com/in/narayanubale" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
